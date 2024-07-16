@@ -3,7 +3,7 @@
   <head> 
     <title>test title</title>
   </head>
-  <body>
+  <body style="background-color: white;">
     <!-- header tags -->
     <h1>h1</h1>
     <h2>h2</h2>
@@ -24,66 +24,75 @@
     <p>text before hr</p>
     <hr/>
     <p>text after hr</p>
+    <hr/>
     <!-- wbr is used to tell html where to break text
       in line if window shrinks -->
-    <p>some super duper long wall of text that just keeps going and going and going
-        <wbr>this is where i said to break the text <wbr>
-        and then it conintues here and also here and also here
-    </p>
-    <p>Doctor abbreivation tag <abbr title="Doctor">DR.</abbr></p>
-    <p>Address header<address>address tag</address></p>
-    <br/>
-    <bdi>bdi tag: bi-directional isolation - used for when entering text that doesn't go Left-To-Right</bdi>
-    <br/>
-    <bdo>bdo tag: bi-directional override, allows to change text direction</bdo>
-    <blockquote>blockquote tag: used for when inserting quote from another source</blockquote>
-    <cite>cite tag: used when entering the title of any media (book, movie, song, etc)</cite>
-    <br/>
-    <code>code tag: used when entering any computer code</code>
-    <br/>
     <b>bold tag</b>
     <br/>
     <!-- also tells browser this text is important -->
     <strong>strong tag</strong>
     <br/>
+    <br/>
     <i>italics tag</i>
     <br/>
     <em>em - emphasized tag: looks like italics</em>
+    <br/>
     <br/>
     <del>del tag: used for entering strikethrough text</del>
     <br/>
     <s>s tag: used for strikethrough text</s>
     <br/>
+    <br/>
     <ins>ins tag: insert - used to underline text</ins>
     <br/>
     <u>u tag</u>
     <br/>
+    <br/>
+    <mark>mark tag: used when you want text to be highlighted</mark>
+    <hr/>
+    some super duper long wall of text that just keeps going and going and going
+      <wbr>this is where i said to break the text <wbr>
+      and then it conintues here and also here and also here
+    <pre>pre tag: preformatted - everything will show up in a set amount of space</pre>
+    <br/>
+    abbr tag: abbreivation - used for when to display a shortened title like <abbr title="Doctor">DR.</abbr>
+    <address>address tag used when you want to display an address</address>
+    <br/>
+    <bdi>bdi tag: bi-directional isolation - used for when entering text that doesn't go Left-To-Right</bdi>
+    <br/>
+    <bdo>bdo tag: bi-directional override, allows to change text direction</bdo>
+    <br/>
+    <blockquote>blockquote tag: used for when inserting quote from another source</blockquote>
     <q>q tag: quotes - puts text inside double quotations</q>
+    <br/>
     <br/>
     <dfn>dfn tag: used for when entering in any definition</dfn>
     <br/>
-    <mark>mark tag: used when you want text to be highlighted</mark>
-    <br/>
-    <kbd>kbd text: keyboard - used when entering keyboard characters/buttons as text</kbd>
-    <br/>
-    <pre>pre tag: preformatted - everything will show up in a set amount of space</pre>
-    <samp>samp tag: sample - used to output computer output sample text</samp>
+    <cite>cite tag: used when entering the title of any media (book, movie, song, etc)</cite>
     <br/>
     <var>var tag: variables - used to show math variables</var>
+    <br/>
+    <br/>
+    <code>code tag: used when entering any computer code</code>
+    <br/>
+    <kbd>kbd tag: keyboard - used when entering keyboard characters/buttons as text</kbd>
+    <br/>
+    <samp>samp tag: sample - used to output computer output sample text</samp>
+    <br/>
     <br/>
     <small>small tag</small>
     <br/>
     <sub>sub tag: subscript - makes text the lower line</sub>
     <br/>
     <sup>sup tag: superscript - makes text the higher line</sup>
-    <br/>
+    <hr/>
     meter tag: - used to show a meter while taking in a number of attributes
     <meter value="10"></meter>
     <br/>
     progress tag: shows the completion progress of a given task while taking in a number of attributes
     <br/>
     <progress value="50" max="100"></progress>
-    <br/>
+    <hr/>
     template tag: used to hold content that will be invisible on load, but still needs to be part of the document:<template></template>
     <time>time tag: used to enter text thats time</time>
     <br/>
