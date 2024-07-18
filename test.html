@@ -2,6 +2,7 @@
 <html>
   <head> 
     <title>test title</title>
+    <style></style>
   </head>
   <body style="background-color: white;">
     <!-- header tags -->
@@ -13,9 +14,63 @@
     <h6>h6</h6>
 
     <!-- text tags -->
-    <p>paragraph p tag</p>
     
+    <div style="background-color: red;">
+      div tag: designates a part of the page that holds logically similar data of any 
+      kind
+      <span style="background-color: orange;">
+        designates part of line that holds logically similar data of any kind
+      </span>
+      <p style="background-color: green;">
+        p tag: designates a part of the page that holds logically similar text
+      </p>
+    </div>
+    <main style="background-color: lightcyan;">
+      main tag: should be one per document, contains the main non-reusable part of 
+      file that describes what it's primarily about
+      <article style="background-color: lightsalmon;">
+        article tag: collection of text based tags 
+        (headings(h#, header, hgroup), text(p, section), footers, 
+        text identifiers(address, time, citations, etc) )
+        <header style="background-color: lightgoldenrodyellow;">
+          header tag: headings of article, contains headings and info about article(h1, time, p)
+        </header>
+        <hgroup style="background-color: lightblue;">
+          hgroup tag: defines a one header + p (h1-6, p)
+        </hgroup>
+        <section style="background-color: lightgray;">
+          section tag: represents a generic standalone section of a document, 
+          which doesn't have a more specific semantic element to represent it. 
+          Sections almost always have a heading (h1-6)
+        </section>
+        <footer style="background-color: lightcoral;">
+          footer tag: the ending part of article or section, contains closing info
+          in small text
+        </footer>
+      </article>
+    </main>
     
+   
+    <search style="background-color: lightpink;">
+      search tag: a wrapper element meant to surround a form that contains a search
+      bar of some kind
+    </search>
+    <aside style="background-color: lightseagreen;">
+      used to wrap text/content that is not meant as the main topic of this page
+    </aside>
+    <details style="background-color: lightskyblue;">
+      details tag: creates a toggle-able bullet 
+      <summary style="background-color: lightsteelblue;">
+        summary tag: provides a summary for the parent detail tag when its closed 
+      </summary>
+    </details> 
+    <dialog style="background-color: lightslategray;">
+      dialog tag: used to create a popup/modal
+    </dialog>
+    <data style="background-color: lightyellow;">
+      data tag: binds content to a given value passed in the value attribute
+    </data>
+  
 
     <!-- break tags -->
     <p>text before br</p>
