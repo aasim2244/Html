@@ -1,0 +1,529 @@
+/* all div tags */
+div{
+
+}
+
+/* all tags with class name */
+.divClassName{
+
+}
+
+/* all tags with id name */
+#divIdName{
+
+}
+
+/* all a tags with this attribute and value */
+a[href=""]{
+
+}
+
+/* all a tags that have this psuedo class */
+a:hover{
+
+}
+
+/* psuedo-element within p tag */
+p::first-line{
+
+}
+
+/* all immedieate children that are p tags of div tags */
+div > p{
+
+}
+
+/* above combos can be combined via , separated lists */
+
+div{
+  /* align */
+  /* Aligns items in a flex container along flex lines. */
+  align-content:	normal;
+  /* Aligns evenly spaced items in a flex container. */
+  align-items: normal;
+  /* Aligns an item inside a flex container. */
+  align-self: normal;
+
+/* animation */
+  /* Creates an animating element. */
+  animation:	
+  /* Sets a delay before an animation begins. */
+  animation-delay:	
+  /* Sets how, in which direction, an animation is played. */
+  animation-direction:	
+  /* Defines the duration of an animation cycle. */
+  animation-duration:	
+  /* Defines how styles are applied before and after animation. */
+  animation-fill-mode:	
+  /* Sets the number of times an animation is played. */
+  animation-iteration-count: 
+  /* Defines a name for the animation. */
+  animation-name:	
+  /* Sets the animation play state to running or paused. */
+  animation-play-state:	
+  /* Specifies the animation speed curve. */
+  animation-timing-function:
+
+  /* background */
+  /* Sets the background of an element. */
+  background:	
+  /* Defines how the background is attached to an element. */
+  background-attachment:	
+  /* Defines the background layer blending mode. */
+  background-blend-mode:
+  /* Defines how background extends beyond the element. */
+  background-clip:	
+  /* Sets the background color of the element. */
+  background-color:	
+  /* Specifies a background image for an element. */
+  background-image:	
+  /* Specifies the background image origin position. */
+  background-origin:	
+  /* Sets the position of a background image. */
+  background-position:	
+  /* Specifies how the background image is repeated. */
+  background-repeat:	
+  /* Sets the size of the background image. */
+  background-size:	
+  
+  /* border */
+  /* Specifies a border for an element */
+  border:	
+  /* Specifies a bottom border for an element. */
+  border-bottom:	
+  /* the color of a bottom border . */
+  border-bottom-color	Sets: 
+  /* Sets the border radius of the bottom left corner. */
+  border-bottom-left-radius:	
+  /* Sets the border radius of the bottom right corner */
+  border-bottom-right-radius:	
+  /* Sets the style of the bottom border. */
+  border-bottom-style:	
+  /* Sets the width of the bottom border */
+  border-bottom-width:	
+  /* Sets table borders to single collapsed line or separated. */
+  border-collapse:	
+  /* Sets the color of the border. */
+  border-color:	
+  /* Defines an image as border, instead of a color. */
+  border-image:	
+  /* Sets how far a border image extends beyond the border. */
+  border-image-outset:	
+  /* Defines if and how the border image is repeated. */
+  border-image-repeat:	
+  /* Defines how the border image will be sliced. */
+  border-image-slice:	
+  /* Specifies the url of the border image file. */
+  border-image-source:	
+  /* Sets the width of the image border. */
+  border-image-width:	
+  /* Sets the left border of the element. */
+  border-left:	
+  /* Sets the color of the left border. */
+  border-left-color:	
+  /* Sets the style of the left border. */
+  border-left-style:	
+  /* Sets the width of the left border. */
+  border-left-width:	
+  /* Sets the radius of the border. */
+  border-radius:	
+  /* Sets the right border of the element. */
+  border-right:	
+  /* Sets the color of the right border. */
+  border-right-color:	
+  /* Sets the style of the right border. */
+  border-right-style:	
+  /* Sets the width of the right border. */
+  border-right-width:	
+  /* Sets the adjacent table cell distance. */
+  border-spacing:	
+  /* Defines the style of the border */
+  border-style:	
+  /* Sets the top border of the element. */
+  border-top:	
+  /* Sets the color of the top border. */
+  border-top-color:	
+  /* Sets the border radius of the top left corner. */
+  border-top-left-radius:	
+  /* Sets the border radius of the top right corner. */
+  border-top-right-radius:	
+  /* Sets the style of the top border. */
+  border-top-style:	
+  /* Sets the width of the top border. */
+  border-top-width:	
+  /* Sets the border width of the element. */
+  border-width:	
+
+  /* box */
+  /* Adds a shadow effect to an element. */
+  box-shadow:	
+  /* Sets how element height and width are calculated. */
+  box-sizing:	
+
+  /* column */
+  /* Divides an element into the specified number of columns. */
+  column-count:	
+  /* Specifies how divided columns are filled. */
+  column-fill:	
+  /* Specifies the space between divided columns. */
+  column-gap:	
+  /* Sets the style, width, and color of a column divider. */
+  column-rule:	
+  /* Sets the color of a column divider. */
+  column-rule-color:	
+  /* Sets the style of a column divider. */
+  column-rule-style:	
+  /* Sets the width of a column divider. */
+  column-rule-width:	
+  /* Sets number of divided columns an element should span. */
+  column-span:	
+  /* Specifies the width of a divided column. */
+  column-width:	
+  /* Divide an element into columns of a certain width. */
+  columns:	
+  
+  /* counter */
+  /* Increase or decrease a CSS counter. */
+  counter-increment:	
+  /* Initialize or reset CSS counter. */
+  counter-reset:	
+  
+  /* flex */
+  /* Specifies the width of the flexible items. */
+  flex:	
+  /* Specifies the initial width of a flex item. */
+  flex-basis:	
+  /* Specifies the direction for the flex item to align. */
+  flex-direction:	
+  /* Controls the direction and wrapping of flexible items. */
+  flex-flow:	
+  /* Specifies how a flex item can grow inside the container. */
+  flex-grow:	
+  /* Specifies how a flex item can shrink inside the container. */
+  flex-shrink:	
+  /* Specifies how flexible items wrap inside the container. */
+  flex-wrap:	
+
+  /* font */
+  /* Sets font family, variant, weight, height, and size for an element. */
+  font:	
+  /* Embeds a custom font inside a web page */
+  @font-face:	
+  /* Sets the font family for an element. */
+  font-family:	
+  /* Sets the spacing between the font's characters. */
+  font-kerning:	
+  /* the size of the font for an element. */
+  font-size	Sets: 
+  /* Specifies a fall-back font size. */
+  font-size-adjust:	
+  /* Sets the text characters to a wider or narrower variant. */
+  font-stretch:	
+  /* Set the font style to normal, italic, or oblique. */
+  font-style:	
+  /* Specifies that text is displayed in a small-caps font. */
+  font-variant:	
+  /* Sets the weight or thickness of the font. */
+  font-weight:	
+
+  /* grid */
+  /* Defines a grid layout with responsive rows and columns. */
+  grid:	
+  /* Sets the size and location of grid items in a grid container. */
+  grid-area:	
+  /* Specifies the size of the columns in a grid container. */
+  grid-auto-columns:	
+  /* Specifies the initial placement of items in a grid container. */
+  grid-auto-flow:	
+  /* Specifies the initial size of the items in a grid container. */
+  grid-auto-rows:	
+  /* Specifies the size and location of a grid item in a grid container. */
+  grid-column:	
+  /* Specifies in which column-line the grid item will end. */
+  grid-column-end:	
+  /* Specifies the gap size between columns in a grid container. */
+  grid-column-gap:	
+  /* Specifies in which column line the grid item will start. */
+  grid-column-start:	
+  /* Specifies the gap size between grid rows and columns. */
+  grid-gap:	
+  /* Specifies the grid item size and location in a grid container. */
+  grid-row:	
+  /* Specifies in which row-line the grid item will end. */
+  grid-row-end:	
+  /* Specifies the gap size between rows in a grid container. */
+  grid-row-gap:	
+  /* Specifies in which row line the grid item will start */
+  grid-row-start:	
+  /* Divides a page into sections with a size, position, and layer. */
+  grid-template:	
+  /* Specifies area in a grid container. */
+  grid-template-areas:	
+  /* Sets the number and width of columns in a grid container. */
+  grid-template-columns:	
+  /* Sets the number and height of rows in a grid container. */
+  grid-template-rows:	
+  
+  /* list */
+  /* Defines the markers (bullet points) for items in a list. */
+  list-style:	
+  /* Defines an image markers (bullet points) for items in a list. */
+  list-style-image:	
+  /* Sets the marker (bullet point) positions for items in a list */
+  list-style-position:	
+  /* Defines the marker types (bullet points) for items in a list */
+  list-style-type:	
+  
+  /* margin */
+  /* Sets the margin (outside spacing) for an element. */
+  margin:	
+  /* Sets the bottom margin (outside spacing) for an element. */
+  margin-bottom:	
+  /* Sets the left margin (outside spacing) for an element. */
+  margin-left:	
+  /* Sets the right margin (outside spacing) for an element. */
+  margin-right:	
+  /* Sets the top margin (outside spacing) for an element. */
+  margin-top:	
+
+  /* height/weight */
+  /* Sets the maximumn height for an element. */
+  max-height:	
+  /* Sets the maximum width for an element. */
+  max-width:	
+  /* Sets the minimum height for an element. */
+  min-height:	
+  /* Sets the minimum width for an element. */
+  min-width:	
+  
+  /* object */
+  /* Specifies how an image or video fits inside a container. */
+  object-fit:	
+  /* Specifies the image or video position inside a container. */
+  object-position:	
+  
+  /* outline */
+  /* Adds an outline (highlighted border) to an element. */
+  outline:	
+  /* Sets the color of an outline. */
+  outline-color:	
+  /* Sets the space between the outline and border. */
+  outline-offset:	
+  /* Sets the style of an outline. */
+  outline-style:	
+  /* Sets the width of an outline. */
+  outline-width:	
+
+  /* overflow */
+  /* Specifies the flow of content that exceeds the container. */
+  overflow:	
+  /* Specifies the flow of content that exceeds the container width. */
+  overflow-x:	
+  /* Specifies the flow of content that exceeds the container height. */
+  overflow-y:	
+
+  /* padding */
+  /* Sets the spacing between content and element border. */
+  padding:	
+  /* Sets the spacing between content and bottom element border. */
+  padding-bottom:	
+  /* Sets the spacing between content and left element border. */
+  padding-left:	
+  /* Sets the spacing between content and right element border. */
+  padding-right:	
+  /* Sets the spacing between content and top element border. */
+  padding-top:	
+
+  /* page break */
+  /* Adds a print page-break after an element. */
+  page-break-after:	
+  /* Adds a print page-break before an element. */
+  page-break-before:	
+  /* Specifies if print page-break is allowed inside an element. */
+  page-break-inside:	
+  
+  /* perspective */
+  /* Adds perspective to a 3D-positioned element. */
+  perspective:	
+  /* Sets the origin of the perspective for a 3D-positioned element. */
+  perspective-origin:	
+
+  /* text */
+  /* Sets the alignment of text inside an element. */
+  text-align:	
+  /* Sets the alignment for the last line of text. */
+  text-align-last:	
+  /* Defines the style and color of underlined text. */
+  text-decoration:	
+  /* Defines the color of underlined text. */
+  text-decoration-color:	
+  /* Defines the kind of line to use with text. */
+  text-decoration-line:	
+  /* Defines the style of underlined text. */
+  text-decoration-style:	
+  /* Sets the indentation to the beginning of text. */
+  text-indent:	
+  /* Defines the text justification inside a container. */
+  text-justify:	
+  /* Sets the display behavior of text that overflows a container. */
+  text-overflow:	
+  /* Adds a shadow effect to text. */
+  text-shadow:	
+  /* Defines text capitalization or casing. */
+  text-transform:	
+  
+  /* transform */
+  /* Applies a 2D or 3D transformation to an element. */
+  transform:	
+  /* Sets the origin for the transformation of the element. */
+  transform-origin:	
+  /* Specifies the display behavior of 3D space nested elements. */
+  transform-style:	
+  
+  /* transition */
+  /* Creates transitions from one property value to another. */
+  transition:	
+  /* Creates a delay before the transition effect starts. */
+  transition-delay:	
+  /* Specifies the time the transition will take. */
+  transition-duration:	
+  /* Specifies the CSS property that will transition. */
+  transition-property:	
+  /* Defines the speed curve function of the transition. */
+  transition-timing-function:	
+  
+  /* word */
+  /* Specifies how line breaks take place. */
+  word-break: ;
+  /* Sets the spacing between words. */
+  word-spacing: inherit;
+  /* Specifies how long words can be wrapped. */
+  word-wrap: inherit;
+
+  /* Uncategorized */
+  /* Resets all element properties to its default or inherited values. */
+  all:	
+  
+  /* Shows or hides the backface visibility of an element. */
+  backface-visibility:
+  /* Positions the element from the bottom of the relative container. */
+  bottom:	
+  
+  /* Defines on which side of the table a caption is placed. */
+  caption-side:	
+  
+  /* Sets the color of the blinking mouse caret. */
+  caret-color:	
+  
+  /* Specifies the character encoding of the stylesheet. */
+  @charset:	
+  
+  /* Sets the element side that does not allow floating elements. */
+  clear:	
+  
+  /* Sets how an image is cropped or clipped inside a container. */
+  clip:	
+  
+  /* Clips an element inside a specific shape or SVG. */
+  clip-path:	
+  
+  /* Specifies the color of text in an element. */
+  color:	
+  
+  /* Used to insert content before or after an element. */
+  content:	
+
+  /* Specifies the shape of the mouse cursor. */
+  cursor:	
+
+  /* Specifies the text writing direction of a block-level element. */
+  direction:	
+  
+  /* Specify an element's display behavior. */
+  display:	
+  
+  /* Specifies whether empty table cell borders will be displayed. */
+  empty-cells:	
+  
+  /* Adds an image enhancing effect to an image. */
+  filter:	
+    
+  /* Sets how an element is positioned relative to other elements. */
+  float:	
+  
+  /* Sets the height of an element. */
+  height:	
+  
+  /* Specifies hyphenation with wrap opportunities in a line of text. */
+  hyphens:	
+  
+  /* Imports a style sheet inside another style sheet. */
+  @import:	
+  
+  /* Defines the alignment of items in a flex container. */
+  justify-content:	
+  
+  /* Defines the CSS style to animate. */
+  @keyframes:	
+  
+  /* Positions the element from the left of the relative container. */
+  left:	
+  
+  /* Sets the spacing between characters. */
+  letter-spacing:	
+  
+  /* Sets the vertical spacing between lines of text. */
+  line-height:	
+  
+  /* Applies media queries to a page. */
+  @media:	
+
+  /* Sets the opacity (transparency) of the element. */
+  opacity:	
+  
+  /* Specifies the order of an item in a flex container. */
+  order:	
+  
+  /* Specifies whether element reacts to pointer events or not. */
+  pointer-events:	
+  
+  /* Sets the element's positioning method. */
+  position:	
+  
+  /* Defines the quotation marks to be used on text. */
+  quotes:	
+  
+  /* Positions the element from the right of the relative container. */
+  right:	
+  
+  /* Specifies the scrolling behavior of an element */
+  scroll-behavior:	
+  
+  /* Aligns elements according to a table with rows and columns. */
+  table-layout:	
+
+  /* Positions the element from the top of the relative container */
+  top:	 
+
+  /* Specifies how text can be selected (highlighted) */
+  user-select:	
+  
+  /* Specifies vertical alignment of an element. */
+  vertical-align:	
+  
+  /* Specifies the visibility of an element. */
+  visibility:	
+  
+  /* Specifies how white-space is handled inside an element. */
+  white-space:	
+  
+  /* Sets the width of an element. */
+  width:	
+  
+  /* Sets the text reading orientation: top to bottom, etc. */
+  writing-mode: ;
+
+  /* Sets the vertical stacking order relative to other elements. */
+  z-index: ;
+
+}

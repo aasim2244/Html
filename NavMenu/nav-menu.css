@@ -1,0 +1,39 @@
+body {
+  /* needed to pin to the top and go side to side */
+  margin: 0;
+
+  /* just for night mode */
+  background-color: lightgray;
+}
+.nav-menu {
+  background-color: purple;
+
+    /* removes bullet points */
+   list-style-type: none;
+
+   /* allows background color to be applied */
+   display: flex;
+
+   /* pins menu to top of screen */
+   margin: 0;
+
+   /* removes indent from left side */
+   padding: 0;
+}
+
+.nav-menu a {
+  /* TODO: Need to lookup different display options */
+  display: flex;
+
+  color: white;
+
+  /* spaces out each iem */
+  padding: 14px 20px;
+
+  /* removes underlines */
+  text-decoration: none;
+}
+
+.nav-menu a:hover {
+  background-color: #575757;
+}
