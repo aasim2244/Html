@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+.notification-container {
+  position: relative;
+  display: inline-block;
+}
+
+.icon {
+  position: relative;
+  width: 48px;
+  height: 48px;
+}
+
+.icon img {
+  width: 100%;
+  height: auto;
+}
+
+.badge {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background-color: #ff0000;
+  color: #fff;
+  border-radius: 50%;
+  padding: 4px 8px;
+  font-size: 12px;
+  font-weight: bold;
+}

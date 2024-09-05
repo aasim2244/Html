@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+.tree {
+  list-style-type: none;
+}
+
+.tree ul {
+  list-style-type: none;
+  margin-left: 20px;
+  padding-left: 20px;
+  border-left: 1px solid #ccc;
+}
+
+.caret {
+  cursor: pointer;
+  user-select: none; /* Prevent text selection */
+}
+
+.caret::before {
+  content: "▶";
+  color: black;
+  display: inline-block;
+  margin-right: 6px;
+  transition: transform 0.3s ease;
+}
+
+.caret-down::before {
+  transform: rotate(90deg);
+}
+
+.nested {
+  display: none;
+}
+
+.active {
+  display: block;
+}

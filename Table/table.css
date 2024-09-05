@@ -1,0 +1,95 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+  text-align: center;
+}
+
+.table-container {
+  margin: 0 auto;
+  max-width: 800px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+thead {
+  background-color: #007bff;
+  color: white;
+}
+
+th, td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  cursor: pointer;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.sort-icon {
+  margin-left: 10px;
+  font-size: 12px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+input[type="text"] {
+  padding: 5px;
+  margin-top: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px;
+  margin: 5px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.export-toolbar button {
+  font-size: 20px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.export-toolbar button:hover {
+  color: #0056b3;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  margin: 0 10px;
+}
+
+#pageInfo {
+  font-size: 16px;
+  margin: 0 10px;
+}

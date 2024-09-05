@@ -1,39 +1,65 @@
 body {
-  /* needed to pin to the top and go side to side */
   margin: 0;
-
-  /* just for night mode */
-  background-color: lightgray;
-}
-.nav-menu {
-  background-color: purple;
-
-    /* removes bullet points */
-   list-style-type: none;
-
-   /* allows background color to be applied */
-   display: flex;
-
-   /* pins menu to top of screen */
-   margin: 0;
-
-   /* removes indent from left side */
-   padding: 0;
+  font-family: Arial, sans-serif;
 }
 
-.nav-menu a {
-  /* TODO: Need to lookup different display options */
-  display: flex;
-
+.navbar {
+  background-color: #333;
+  padding: 10px;
   color: white;
-
-  /* spaces out each iem */
-  padding: 14px 20px;
-
-  /* removes underlines */
-  text-decoration: none;
 }
 
-.nav-menu a:hover {
+.navbar-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.nav-item {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+
+.nav-item:hover {
   background-color: #575757;
+  border-radius: 5px;
+}
+
+.hamburger-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+  position: absolute;
+  left: 10px;
+}
+
+.bar {
+  background-color: white;
+  height: 3px;
+  width: 25px;
+  margin: 3px 0;
+  border-radius: 2px;
+}
+
+.search-container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.search-container input {
+  width: 100%;
+  max-width: 400px;
+  padding: 7px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.search-container input:focus {
+  border-color: #333;
 }

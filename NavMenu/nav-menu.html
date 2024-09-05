@@ -3,17 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Navigation Menu</title>
+    <title>Navbar with Hamburger and Search</title>
     <link rel="stylesheet" href="nav-menu.css">
 </head>
 <body>
-    <nav>
-        <ul class="nav-menu">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+    <nav class="navbar">
+        <div class="navbar-content">
+            <div class="hamburger-menu">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <div class="search-container">
+                <input type="text" placeholder="Search...">
+            </div>
+            <a href="#" class="nav-item">Home</a>
+            <a href="#" class="nav-item">About</a>
+            <a href="#" class="nav-item">Services</a>
+        </div>
     </nav>
 </body>
 </html>
