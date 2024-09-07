@@ -1,6 +1,5 @@
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
+  /* TODO */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,27 +8,31 @@ body {
 }
 
 .toggle-container {
+  /* TODO */
   position: relative;
   width: 60px;
   height: 30px;
 }
 
 .toggle-checkbox {
+  /* TODO */
   display: none;
 }
 
 .toggle-label {
+  /* TODO */
   display: block;
   width: 100%;
   height: 100%;
   background-color: #ccc;
   border-radius: 15px;
   cursor: pointer;
+  /* TODO */
   position: relative;
-  transition: background-color 0.3s ease;
 }
 
 .toggle-label .toggle-button {
+  /* TODO */
   position: absolute;
   top: 3px;
   left: 3px;

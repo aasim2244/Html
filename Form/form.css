@@ -1,6 +1,4 @@
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
   padding: 20px;
   text-align: center;
 }
@@ -10,17 +8,16 @@ body {
   margin: 0 auto;
   background-color: white;
   padding: 20px;
-  border-radius: 10px;
+  /* TODO */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-h2 {
-  margin-bottom: 20px;
-}
-
 form {
+  /* TODO */
   display: flex;
+  /* TODO */
   flex-direction: column;
+  /* TODO */
   align-items: flex-start;
 }
 
@@ -35,11 +32,12 @@ input[type="text"], select {
   margin-bottom: 15px;
   border-radius: 5px;
   border: 1px solid #ccc;
-  box-sizing: border-box;
 }
 
 .checkbox-group {
+  /* TODO */
   display: flex;
+  /* TODO */
   flex-direction: column;
   margin-bottom: 15px;
 }
@@ -62,18 +60,17 @@ button:hover {
 }
 
 .toggle {
+  /* TODO */
   position: relative;
+  /* TODO */
   display: inline-block;
   width: 50px;
   height: 24px;
   margin-bottom: 15px;
 }
 
-.toggle input {
-  display: none;
-}
-
 .slider {
+  /* TODO */
   position: absolute;
   cursor: pointer;
   top: 0;
@@ -86,6 +83,7 @@ button:hover {
 }
 
 .slider:before {
+  /* TODO */
   position: absolute;
   content: "";
   height: 20px;

@@ -1,43 +1,22 @@
 body {
-  font-family: Arial, sans-serif;
   margin: 0;
-  padding: 0;
 }
 
 .site-footer {
   background-color: #333;
   color: #fff;
-  padding: 20px 0;
 }
 
 .footer-container {
+  /* TODO */
   display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  max-width: 1200px;
-  margin: 0 auto;
   padding: 0 20px;
 }
 
 .footer-container > div {
+  /* TODO */
   flex: 1;
   margin: 10px;
-  min-width: 200px;
-}
-
-.footer-about,
-.footer-links,
-.footer-contact,
-.footer-social {
-  margin-bottom: 20px;
-}
-
-.footer-about h3,
-.footer-links h3,
-.footer-contact h3,
-.footer-social h3 {
-  font-size: 18px;
-  margin-bottom: 10px;
 }
 
 .footer-links ul {
@@ -59,14 +38,8 @@ body {
 }
 
 .footer-contact p {
+ /* TODO */
   margin: 5px 0;
-}
-
-.footer-social ul {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  justify-content: flex-start;
 }
 
 .footer-social ul li {
@@ -74,6 +47,7 @@ body {
 }
 
 .social-icons {
+  /* TODO */
   display: flex;
   padding: 0;
 }
@@ -83,8 +57,6 @@ body {
   height: 30px;
   display: block;
   background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 .social-icon.facebook {
@@ -105,7 +77,6 @@ body {
 
 .footer-bottom {
   text-align: center;
-  border-top: 1px solid #444;
   padding-top: 10px;
   margin-top: 20px;
   font-size: 14px;

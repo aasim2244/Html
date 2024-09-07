@@ -1,6 +1,5 @@
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
 }
 
 .navbar {
@@ -10,11 +9,9 @@ body {
 }
 
 .navbar-content {
+  /* TODO */
   display: flex;
   align-items: center;
-  justify-content: center;
-  max-width: 1200px;
-  margin: 0 auto;
 }
 
 .nav-item {
@@ -29,12 +26,13 @@ body {
 }
 
 .hamburger-menu {
+  /* TODO */
   display: flex;
+  /* TODO */
   flex-direction: column;
-  justify-content: center;
   cursor: pointer;
+  /* TODO */
   position: absolute;
-  left: 10px;
 }
 
 .bar {
@@ -42,21 +40,24 @@ body {
   height: 3px;
   width: 25px;
   margin: 3px 0;
-  border-radius: 2px;
 }
 
 .search-container {
+  /* TODO */
   flex-grow: 1;
+  /* TODO */
   display: flex;
+  /* TODO */
   justify-content: center;
 }
 
 .search-container input {
   width: 100%;
+  /* TODO */
   max-width: 400px;
   padding: 7px;
-  border: 1px solid #ccc;
   border-radius: 5px;
+  /* TODO */
   outline: none;
 }
 
