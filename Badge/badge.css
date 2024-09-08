@@ -9,15 +9,9 @@ body {
   height: 100vh;
 }
 
-.notification-container {
-}
-
 .icon {
   /* TODO */
   position: relative;
-}
-
-.icon img {
 }
 
 .badge {
