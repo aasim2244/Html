@@ -283,4 +283,114 @@ div{
   width: 1pt /* 1pt = 1/72nd of 1in */
   width: 1px /* 1px = 1/96th of 1in */
   width: 1q  /* 1Q = 1/40th of 1cm */
+
+  /* if measured against other screen element */
+  width: 1vh /* relative to viewport height */
+  width: 1vw /* relative to viewport width */
+  width: 1em /* relative to element's or parent element's size */
+  width: 1rem /* relative to root element's size*/
+  width: 1lh /* relative to element's line height */
+  width: 1rlh /* relative to root element's line height*/
+  width: 1% /* relative to parent element's size*/
+
+  /* color values */
+  color: white /* color name */
+  color: #123456 /* color hex code */
+  color: rgba(0, 0, 0, 0.5) /* color red, green, blue, opacity percentage */
+  /* hue angle, saturated, darkness, opacity*/
+  color: hsla(180 50% 50% 0.5) /* 0-360 0-100 0-100 0-1 */
+  /* hue angle, lightness, darkness, opacity*/
+  color: hwba(180 50% 50% 0.5) /* 0-360 0-100 0-100 0-1*/
+  /* lightness, amount of color, hue angle, opacity*/
+  color: lcha(50% 50% 180 0.5) /* 0-100 0-100 0-360 0-1*/
+  /* lightness, green-red, blue-yellow, opacity */
+  color: laba(0 50% 50% 0.5) /* 0-100 -125/125|0%-100% -125/125|0%-100% 0-1 */
 }
+
+/* all psuedo classes and elements */
+div:active{}
+div:any-link{}
+div:autofill{}
+div:blank{}
+div:checked{}
+div:current{}
+div:default{}
+div:defined{}
+div:dir(){}
+div:disabled{}
+div:empty{}
+div:enabled{}
+div:first{}
+div:first-child{}
+div:first-of-type{}
+div:focus{}
+div:focus-visible{}
+div:focus-within{}
+div:fullscreen{}
+div:future{} 
+div:has(){} 
+div:host{}
+div:host(){}
+div:host-context(){} 
+div:hover{}
+div:indeterminate{}
+div:in-range{}
+div:invalid{}
+div:is(){}
+div:lang(){}
+div:last-child{}
+div:last-of-type{}
+div:left{}
+div:link{}
+div:local-link{}
+div:modal{}
+div:not(){}
+div:nth-child(){}
+div:nth-last-child(){}
+div:nth-last-of-type(){}
+div:nth-of-type(){}
+div:only-child{}
+div:only-of-type{}
+div:optional{}
+div:out-of-range{}
+div:past{}
+div:paused{}
+div:picture-in-picture{}
+div:placeholder-shown{}
+div:playing{}
+div:popover-open{}
+div:read-only{}
+div:read-write{}
+div:required{}
+div:right{}
+div:root{}
+div:scope{}
+div:state(){}
+div:target{}
+div:target-within{}
+div:user-invalid{}
+div:valid{}
+div:visited{}
+div:where(){}
+
+div::after{}
+div::backdrop{}
+div::before{}
+div::cue(){}
+div::file-selector-button{}
+div::first-letter{}
+div::first-line{}
+div::grammar-error{}
+div::highlight(){}
+div::marker{}
+div::part(){}
+div::placeholder{}
+div::selection{}
+div::slotted(){}
+div::spelling-error{}
+div::target-text{}
+div::view-transition{}
+div::view-transition-image-pair(){}
+div::view-transition-group(){}
+div::view-transition-new(){}
+div::view-transition-old(){}
