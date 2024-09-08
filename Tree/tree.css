@@ -1,5 +1,4 @@
 body {
-  font-family: Arial, sans-serif;
   background-color: #f4f4f4;
   padding: 20px;
 }
@@ -17,13 +16,11 @@ body {
 
 .caret {
   cursor: pointer;
-  user-select: none; /* Prevent text selection */
 }
 
 .caret::before {
   content: "▶";
   color: black;
-  display: inline-block;
   margin-right: 6px;
   transition: transform 0.3s ease;
 }

@@ -1,5 +1,4 @@
 body {
-  font-family: Arial, sans-serif;
   background-color: #f4f4f4;
   padding: 20px;
   text-align: center;
@@ -40,10 +39,7 @@ tbody tr:nth-child(even) {
 }
 
 .sort-icon {
-  margin-left: 10px;
   font-size: 12px;
-  display: inline-block;
-  vertical-align: middle;
 }
 
 input[type="text"] {
@@ -74,10 +70,6 @@ button:hover {
   cursor: pointer;
 }
 
-.export-toolbar button:hover {
-  color: #0056b3;
-}
-
 .pagination {
   display: flex;
   justify-content: center;
@@ -89,7 +81,3 @@ button:hover {
   margin: 0 10px;
 }
 
-#pageInfo {
-  font-size: 16px;
-  margin: 0 10px;
-}

@@ -20,7 +20,6 @@ button:hover {
 .modal {
   display: none; /* Hidden by default */
   position: fixed;
-  z-index: 1; /* Sit on top */
   left: 0;
   top: 0;
   width: 100%;
@@ -44,7 +43,6 @@ button:hover {
 .close-btn {
   color: #aaa;
   font-size: 28px;
-  font-weight: bold;
   position: absolute;
   top: 10px;
   right: 20px;
