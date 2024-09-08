@@ -274,3 +274,13 @@ div{
 }
 
 /* all the values a property can have rem,px,%, absoulute, relative, etc */
+div{
+  /* if printed out on a paper */
+  width: 1in /* 1in = 2.54cm = 96px */
+  width: 1cm /* 1cm = 37.8px = 25.2/64 in */
+  width: 1pc /* 1pc = 1/6th of 1in */
+  width: 1mm /* 1mm = 1/10th of 1cm */
+  width: 1pt /* 1pt = 1/72nd of 1in */
+  width: 1px /* 1px = 1/96th of 1in */
+  width: 1q  /* 1Q = 1/40th of 1cm */
+}
