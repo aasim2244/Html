@@ -1,0 +1,16 @@
+p{
+  /* margin order */
+  margin-top: 100;
+  margin-right: 100;
+  margin-bottom: 100;
+  margin-left: 100;
+
+  /* border */
+
+  border-top-style: solid;
+  border-top-color: red;
+  border-top-width: 10;
+
+  border-top-left-radius: 100px;
+  
+}
