@@ -306,7 +306,7 @@ div{
   color: hwba(180 50% 50% 0.5) /* 0-360 0-100 0-100 0-1*/
   /* lightness, amount of color, hue angle, opacity*/
   color: lcha(50% 50% 180 0.5) /* 0-100 0-100 0-360 0-1*/
-  /* lightness, green-red, blue-yellow, opacity */
+  /* lightness, green-red, b6lue-yellow, opacity */
   color: laba(0 50% 50% 0.5) /* 0-100 -125/125|0%-100% -125/125|0%-100% 0-1 */
 }
 
