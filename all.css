@@ -47,34 +47,31 @@ div{
   border-left-color:	 /* Sets the color of the left border. */
   border-left-style:	 /* Sets the style of the left border. */
   border-left-width:	 /* Sets the width of the left border. */
+
+  border-color:	 /* Sets the color of the border. */
+  border-radius:	 /* Sets the radius of the border. */
+  border-style:	 /* Defines the style of the border */
+  border-width:	 /* Sets the border width of the element. */
+
   border-image:	 /* Defines an image as border, instead of a color. */
+  border-image-source:	 /* Specifies the url of the border image file. */
+  border-image-width:	 /* Sets the width of the image border. */
   border-image-outset:	 /* Sets how far a border image extends beyond the border. */
   border-image-repeat:	 /* Defines if and how the border image is repeated. */
   border-image-slice:	 /* Defines how the border image will be sliced. */
-  border-image-source:	 /* Specifies the url of the border image file. */
-  border-image-width:	 /* Sets the width of the image border. */
+
+  /* try this with tables */
   border-collapse:	 /* Sets table borders to single collapsed line or separated. */
-  border-color:	 /* Sets the color of the border. */
-  border-radius:	 /* Sets the radius of the border. */
   border-spacing:	 /* Sets the adjacent table cell distance. */
-  border-style:	 /* Defines the style of the border */
-  border-width:	 /* Sets the border width of the element. */
-  
-  /* overflow */
-  overflow:	  /* Specifies the flow of content that exceeds the container. */
-  overflow-x:	  /* Specifies the flow of content that exceeds the container width. */
-  overflow-y:	  /* Specifies the flow of content that exceeds the container height. */
   
   /* outline */
   outline:	  /* Adds an outline (highlighted border) to an element. */
   outline-color:	  /* Sets the color of an outline. */
-  outline-offset:	  /* Sets the space between the outline and border. */
   outline-style:	  /* Sets the style of an outline. */
   outline-width:	  /* Sets the width of an outline. */
-  
+  outline-offset:	  /* Sets the space between the outline and border. */
   /* box */
   box-shadow:	 /* Adds a shadow effect to an element. */
-  box-sizing: /* Sets how element height and width are calculated. */
   
   /* padding */
   padding:	  /* Sets the spacing between content and element border. */
@@ -126,6 +123,11 @@ div{
   justify-content:	/* Defines the alignment of items in a flex container. */
 
   /* The element itself */
+  /* overflow */
+  overflow:	  /* Specifies the flow of content that exceeds the container. */
+  overflow-x:	  /* Specifies the flow of content that exceeds the container width. */
+  overflow-y:	  /* Specifies the flow of content that exceeds the container height. */
+  
   /* animation */
   animation: /* Creates an animating element. */
   animation-delay:/* Sets a delay before an animation begins. */
@@ -239,6 +241,7 @@ div{
   vertical-align:	/* Specifies vertical alignment of an element. */
 
   /* Uncategorized */
+  box-sizing: /* Sets how element height and width are calculated. */
   backface-visibility:/* Shows or hides the backface visibility of an element. */
   clear:	/* Sets the element side that does not allow floating elements. */
   hyphens:	/* Specifies hyphenation with wrap opportunities in a line of text. */
