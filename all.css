@@ -81,6 +81,14 @@ div{
   padding-left:	  /* Sets the spacing between content and left element border. */
   
   /* Responsive/different screen sizes */
+  /* flex */
+  flex:	/* Specifies the width of the flexible items. */
+  flex-grow:	/* Specifies how a flex item can grow inside the container. */
+  flex-shrink:	/* Specifies how a flex item can shrink inside the container. */
+  flex-basis:	/* Specifies the initial width of a flex item. */
+  flex-direction:	/* Specifies the direction for the flex item to align. */
+  flex-flow:	/* Controls the direction and wrapping of flexible items. */
+  flex-wrap:/* Specifies how flexible items wrap inside the container. */
   /* column */
   column-count:	/* Divides an element into the specified number of columns. */
   column-fill:	/* Specifies how divided columns are filled. */
@@ -92,15 +100,7 @@ div{
   column-span:	/* Sets number of divided columns an element should span. */
   column-width:	/* Specifies the width of a divided column. */
   columns:	/* Divide an element into columns of a certain width. */
-  /* flex */
-  flex:	/* Specifies the width of the flexible items. */
-  flex-basis:	/* Specifies the initial width of a flex item. */
-  flex-direction:	/* Specifies the direction for the flex item to align. */
-  flex-flow:	/* Controls the direction and wrapping of flexible items. */
-  flex-grow:	/* Specifies how a flex item can grow inside the container. */
-  flex-shrink:	/* Specifies how a flex item can shrink inside the container. */
-  flex-wrap:/* Specifies how flexible items wrap inside the container. */
-  /* grid */
+ /* grid */
   grid:	  /* Defines a grid layout with responsive rows and columns. */
   grid-area:	  /* Sets the size and location of grid items in a grid container. */
   grid-auto-columns:	  /* Specifies the size of the columns in a grid container. */
