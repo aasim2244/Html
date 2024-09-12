@@ -86,9 +86,9 @@ div{
   flex-grow:	/* Specifies how a flex item can grow inside the container. */
   flex-shrink:	/* Specifies how a flex item can shrink inside the container. */
   flex-basis:	/* Specifies the initial width of a flex item. */
+  flex-wrap:/* Specifies how flexible items wrap inside the container. */
   flex-direction:	/* Specifies the direction for the flex item to align. */
   flex-flow:	/* Controls the direction and wrapping of flexible items. */
-  flex-wrap:/* Specifies how flexible items wrap inside the container. */
   /* column */
   column-count:	/* Divides an element into the specified number of columns. */
   column-fill:	/* Specifies how divided columns are filled. */
@@ -295,6 +295,13 @@ div{
   width: 1lh /* relative to element's line height */
   width: 1rlh /* relative to root element's line height*/
   width: 1% /* relative to parent element's size*/
+
+  /* global values */
+  width: initial /* default value of property*/
+  width: inherit /* gets value from parent */
+  width: unset /* set to inherit, otherwise inital */
+  width: revert /* removes inherited user defined styles to default */
+  width: revert-layer /* removes styles of current layer and sets to one layer above */
 
   /* color values */
   color: white /* color name */

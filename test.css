@@ -14,3 +14,22 @@ p{
   border-top-left-radius: 100px;
   
 }
+
+.flex-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.span-one{
+  background-color: green;
+  flex-grow: 10;
+  flex-shrink: 1;
+  min-width: 200px;
+}
+
+.span-two{
+  background-color: blue;
+  flex-grow: 1;
+  flex-shrink: 10;
+  min-width: 200px;
+}
