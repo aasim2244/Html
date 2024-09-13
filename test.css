@@ -20,6 +20,11 @@ p{
   flex-wrap: wrap;
 }
 
+.grid-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
 .span-one{
   background-color: green;
   flex-grow: 10;
@@ -33,3 +38,11 @@ p{
   flex-shrink: 10;
   min-width: 200px;
 }
+
+.span-three{
+  background-color: purple;
+  flex-grow: 1;
+  flex-shrink: 10;
+  min-width: 200px;
+}
+

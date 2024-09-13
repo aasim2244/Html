@@ -81,14 +81,31 @@ div{
   padding-left:	  /* Sets the spacing between content and left element border. */
   
   /* Responsive/different screen sizes */
-  /* flex */
-  flex:	/* Specifies the width of the flexible items. */
-  flex-grow:	/* Specifies how a flex item can grow inside the container. */
-  flex-shrink:	/* Specifies how a flex item can shrink inside the container. */
-  flex-basis:	/* Specifies the initial width of a flex item. */
-  flex-wrap:/* Specifies how flexible items wrap inside the container. */
-  flex-direction:	/* Specifies the direction for the flex item to align. */
-  flex-flow:	/* Controls the direction and wrapping of flexible items. */
+  /* grid */
+  grid:	  /* Defines a grid layout with responsive rows and columns. */
+  grid-area:	  /* Sets the size and location of grid items in a grid container. */
+  
+  grid-auto-columns:	  /* Specifies the size of the columns in a grid container. */
+  grid-auto-flow:	  /* Specifies the initial placement of items in a grid container. */
+  grid-auto-rows:	  /* Specifies the initial size of the items in a grid container. */
+  
+  grid-column:	  /* Specifies the size and location of a grid item in a grid container. */
+  grid-column-end:	  /* Specifies in which column-line the grid item will end. */
+  grid-column-gap:	  /* Specifies the gap size between columns in a grid container. */
+  grid-column-start:	  /* Specifies in which column line the grid item will start. */
+  
+  grid-gap:	  /* Specifies the gap size between grid rows and columns. */
+  
+  grid-row:  /* Specifies the grid item size and location in a grid container. */
+  grid-row-end:	  /* Specifies in which row-line the grid item will end. */
+  grid-row-gap:	  /* Specifies the gap size between rows in a grid container. */
+  grid-row-start:	  /* Specifies in which row line the grid item will start */
+  
+  grid-template:	  /* Divides a page into sections with a size, position, and layer. */
+  grid-template-areas:	  /* Specifies area in a grid container. */
+  grid-template-columns:	  /* Sets the number and width of columns in a grid container. */
+  grid-template-rows:	  /* Sets the number and height of rows in a grid container. */
+
   /* column */
   column-count:	/* Divides an element into the specified number of columns. */
   column-fill:	/* Specifies how divided columns are filled. */
@@ -100,25 +117,15 @@ div{
   column-span:	/* Sets number of divided columns an element should span. */
   column-width:	/* Specifies the width of a divided column. */
   columns:	/* Divide an element into columns of a certain width. */
- /* grid */
-  grid:	  /* Defines a grid layout with responsive rows and columns. */
-  grid-area:	  /* Sets the size and location of grid items in a grid container. */
-  grid-auto-columns:	  /* Specifies the size of the columns in a grid container. */
-  grid-auto-flow:	  /* Specifies the initial placement of items in a grid container. */
-  grid-auto-rows:	  /* Specifies the initial size of the items in a grid container. */
-  grid-column:	  /* Specifies the size and location of a grid item in a grid container. */
-  grid-column-end:	  /* Specifies in which column-line the grid item will end. */
-  grid-column-gap:	  /* Specifies the gap size between columns in a grid container. */
-  grid-column-start:	  /* Specifies in which column line the grid item will start. */
-  grid-gap:	  /* Specifies the gap size between grid rows and columns. */
-  grid-row:  /* Specifies the grid item size and location in a grid container. */
-  grid-row-end:	  /* Specifies in which row-line the grid item will end. */
-  grid-row-gap:	  /* Specifies the gap size between rows in a grid container. */
-  grid-row-start:	  /* Specifies in which row line the grid item will start */
-  grid-template:	  /* Divides a page into sections with a size, position, and layer. */
-  grid-template-areas:	  /* Specifies area in a grid container. */
-  grid-template-columns:	  /* Sets the number and width of columns in a grid container. */
-  grid-template-rows:	  /* Sets the number and height of rows in a grid container. */
+
+  /* flex */
+  flex:	/* Specifies the width of the flexible items. */
+  flex-grow:	/* Specifies how a flex item can grow inside the container. */
+  flex-shrink:	/* Specifies how a flex item can shrink inside the container. */
+  flex-basis:	/* Specifies the initial width of a flex item. */
+  flex-wrap:/* Specifies how flexible items wrap inside the container. */
+  flex-direction:	/* Specifies the direction for the flex item to align. */
+  flex-flow:	/* Controls the direction and wrapping of flexible items. */
 
   justify-content:	/* Defines the alignment of items in a flex container. */
 
