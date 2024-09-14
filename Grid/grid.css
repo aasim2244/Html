@@ -1,25 +1,23 @@
 .grid-container{
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
+  
+  grid-template-areas: 
+  "div1 div2"
+  "div3 div3";
 }
-.span-one{
+.div-one{
   background-color: green;
-  flex-grow: 10;
-  flex-shrink: 1;
-  min-width: 200px;
+  grid-area: div1
 }
 
-.span-two{
+.div-two{
   background-color: blue;
-  flex-grow: 1;
-  flex-shrink: 10;
-  min-width: 200px;
+  grid-area: div2
 }
 
-.span-three{
+.div-three{
   background-color: purple;
-  flex-grow: 1;
-  flex-shrink: 10;
-  min-width: 200px;
+  grid-area: div3
 }

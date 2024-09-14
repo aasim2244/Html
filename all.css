@@ -83,8 +83,14 @@ div{
   /* Responsive/different screen sizes */
   /* grid */
   grid:	  /* Defines a grid layout with responsive rows and columns. */
+  grid-template:	  /* Divides a page into sections with a size, position, and layer. */
+
+  grid-template-areas:	  /* Specifies area in a grid container. */
   grid-area:	  /* Sets the size and location of grid items in a grid container. */
-  
+
+  grid-template-columns:	  /* Sets the number and width of columns in a grid container. */
+  grid-template-rows:	  /* Sets the number and height of rows in a grid container. */
+
   grid-auto-columns:	  /* Specifies the size of the columns in a grid container. */
   grid-auto-flow:	  /* Specifies the initial placement of items in a grid container. */
   grid-auto-rows:	  /* Specifies the initial size of the items in a grid container. */
@@ -101,11 +107,7 @@ div{
   grid-row-gap:	  /* Specifies the gap size between rows in a grid container. */
   grid-row-start:	  /* Specifies in which row line the grid item will start */
   
-  grid-template:	  /* Divides a page into sections with a size, position, and layer. */
-  grid-template-areas:	  /* Specifies area in a grid container. */
-  grid-template-columns:	  /* Sets the number and width of columns in a grid container. */
-  grid-template-rows:	  /* Sets the number and height of rows in a grid container. */
-
+  
   /* column */
   column-count:	/* Divides an element into the specified number of columns. */
   column-fill:	/* Specifies how divided columns are filled. */
