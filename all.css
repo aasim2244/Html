@@ -90,26 +90,24 @@ div{
 
   grid-template-columns:	  /* Sets the number and width of columns in a grid container. */
   grid-template-rows:	  /* Sets the number and height of rows in a grid container. */
-
+  grid-gap:	  /* Specifies the gap size between grid rows and columns. */
   grid-auto-columns:	  /* Specifies the size of the columns in a grid container. */
-  grid-auto-flow:	  /* Specifies the initial placement of items in a grid container. */
   grid-auto-rows:	  /* Specifies the initial size of the items in a grid container. */
+  grid-auto-flow:	  /* Specifies the initial placement of items in a grid container. */
   
   grid-column:	  /* Specifies the size and location of a grid item in a grid container. */
-  grid-column-end:	  /* Specifies in which column-line the grid item will end. */
-  grid-column-gap:	  /* Specifies the gap size between columns in a grid container. */
   grid-column-start:	  /* Specifies in which column line the grid item will start. */
-  
-  grid-gap:	  /* Specifies the gap size between grid rows and columns. */
+  grid-column-end:	  /* Specifies in which column-line the grid item will end. */
   
   grid-row:  /* Specifies the grid item size and location in a grid container. */
-  grid-row-end:	  /* Specifies in which row-line the grid item will end. */
-  grid-row-gap:	  /* Specifies the gap size between rows in a grid container. */
   grid-row-start:	  /* Specifies in which row line the grid item will start */
-  
+  grid-row-end:	  /* Specifies in which row-line the grid item will end. */
   
   /* column */
+  columns:	/* Divide an element into columns of a certain width. */
+
   column-count:	/* Divides an element into the specified number of columns. */
+  column-width:	/* Specifies the width of a divided column. */
   column-fill:	/* Specifies how divided columns are filled. */
   column-gap:	/* Specifies the space between divided columns. */
   column-rule:	/* Sets the style, width, and color of a column divider. */
@@ -117,8 +115,6 @@ div{
   column-rule-style:	/* Sets the style of a column divider. */
   column-rule-width:	/* Sets the width of a column divider. */
   column-span:	/* Sets number of divided columns an element should span. */
-  column-width:	/* Specifies the width of a divided column. */
-  columns:	/* Divide an element into columns of a certain width. */
 
   /* flex */
   flex:	/* Specifies the width of the flexible items. */
