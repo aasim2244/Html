@@ -1,11 +1,18 @@
+body{
+  background-color: gray;
+  color: white;
+}
+
+
 .grid-container{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
   
   grid-template-areas: 
-  "div1 div2"
-  "div3 div3";
+  "div1"
+  "div2"
+  "div3";
 }
 .div-one{
   background-color: green;
@@ -21,3 +28,4 @@
   background-color: purple;
   grid-area: div3
 }
+

@@ -1,0 +1,30 @@
+body{
+  background-color: black;
+  color: white;
+}
+
+
+.grid-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  
+  grid-template-areas: 
+  "div1 div2"
+  "div3 div3";
+}
+.div-one{
+  background-color: green;
+  grid-area: div1
+}
+
+.div-two{
+  background-color: blue;
+  grid-area: div2
+}
+
+.div-three{
+  background-color: purple;
+  grid-area: div3
+}
+

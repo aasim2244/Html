@@ -6,43 +6,16 @@ p{
   margin-left: 100;
 
   /* border */
-
   border-top-style: solid;
   border-top-color: red;
   border-top-width: 10;
 
   border-top-left-radius: 100px;
   
-}
 
-.flex-container{
-  display: flex;
-  flex-wrap: wrap;
+  /* padding */
+  padding-top: 100px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-left: 100px;
 }
-
-.grid-container{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-}
-.span-one{
-  background-color: green;
-  flex-grow: 10;
-  flex-shrink: 1;
-  min-width: 200px;
-}
-
-.span-two{
-  background-color: blue;
-  flex-grow: 1;
-  flex-shrink: 10;
-  min-width: 200px;
-}
-
-.span-three{
-  background-color: purple;
-  flex-grow: 1;
-  flex-shrink: 10;
-  min-width: 200px;
-}
-
