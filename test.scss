@@ -22,6 +22,14 @@ $primary-color: green;
 // mixins
 @mixin some-element($someValue: small){// default parameter value if nothing passed in
   font-size: $someValue;
+
+  //the following code will activate when screne size bigger 
+  // than 720
+  @media (min-width: 720px) {
+    // placeholder allowing for new css properties to be 
+    // declared by caller
+    @content
+  }
 }
 
 div{
