@@ -1,0 +1,77 @@
+// importing features
+@use '';
+
+// variables
+$primary-color: green;
+
+// nesting
+.some-class{
+  p{
+    color: $primary-color; 
+  }
+}
+
+// inheritance
+.sub-class{
+  
+  // gets all code from above declared block
+  @extend .some-class;
+
+}
+
+// mixins
+@mixin some-element($someValue: small){// default parameter value if nothing passed in
+  font-size: $someValue;
+}
+
+div{
+  @include some-element($large);
+
+  
+}
+
+// functions
+@function someFunctionName($param){
+  @return $param;
+}
+
+// debug
+// this outouts what the passed value is
+@debug $someValue;
+
+// partials
+// naming convention to begin file name with _
+// dont need to add extension/underscore in import statement
+// _AnotherScssFileName.scss 
+@import "AnotherScssFileName";
+
+// maps
+$colors: (
+  "primary": green,
+  "secondary": red 
+);
+// map functions
+@debug map-keys($colors);
+@debug map-values($colors);
+@debug map-has-key($colors, "primary");
+@debug map-get($colors, "primary");
+@debug map-remove($colors, "secondary");
+@debug map-merge($colors, $colors);
+
+// loops
+@each $key, $val in $colors{
+
+}
+
+@for $i from 1 through 10 {
+  
+}
+
+// selection 
+@if(){
+
+}  @else if(){
+
+} @else{
+
+}
