@@ -1,12 +1,8 @@
 body {
   background-color: #f4f4f4;
-  /* TODO */
   display: flex;
-  /* TODO */
   justify-content: center;
-  /* TODO */
   align-items: center;
-  /* TODO */
   height: 100vh;
 }
 

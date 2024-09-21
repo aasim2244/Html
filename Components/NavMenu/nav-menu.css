@@ -9,7 +9,6 @@ body {
 }
 
 .navbar-content {
-  /* TODO */
   display: flex;
   align-items: center;
 }
@@ -26,12 +25,9 @@ body {
 }
 
 .hamburger-menu {
-  /* TODO */
   display: flex;
-  /* TODO */
   flex-direction: column;
   cursor: pointer;
-  /* TODO */
   position: absolute;
 }
 
@@ -43,21 +39,16 @@ body {
 }
 
 .search-container {
-  /* TODO */
   flex-grow: 1;
-  /* TODO */
   display: flex;
-  /* TODO */
   justify-content: center;
 }
 
 .search-container input {
   width: 100%;
-  /* TODO */
   max-width: 400px;
   padding: 7px;
   border-radius: 5px;
-  /* TODO */
   outline: none;
 }
 

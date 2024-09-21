@@ -1,33 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Snackbar Component</title>
     <link rel="stylesheet" href="snackbar.css">
-</head>
-<body>
-
+  </head>
+  <body>
     <!-- Button to trigger snackbar -->
     <button onclick="showSnackbar()">Show Snackbar</button>
-
     <!-- Snackbar Component -->
     <div id="snackbar">This is a snackbar notification!</div>
-
-    <script>
-        function showSnackbar() {
-            // Get the snackbar DIV
-            var snackbar = document.getElementById("snackbar");
-
-            // Add the "show" class to the snackbar to display it
-            snackbar.className = "show";
-
-            // After 3 seconds, remove the show class to hide the snackbar
-            setTimeout(function() {
-                snackbar.className = snackbar.className.replace("show", "");
-            }, 3000);
-        }
-    </script>
-
-</body>
+    <script src="snackbar.js"/>
+  </body>
 </html>

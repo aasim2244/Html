@@ -8,16 +8,12 @@ body {
   margin: 0 auto;
   background-color: white;
   padding: 20px;
-  /* TODO */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 form {
-  /* TODO */
   display: flex;
-  /* TODO */
   flex-direction: column;
-  /* TODO */
   align-items: flex-start;
 }
 
@@ -35,9 +31,7 @@ input[type="text"], select {
 }
 
 .checkbox-group {
-  /* TODO */
   display: flex;
-  /* TODO */
   flex-direction: column;
   margin-bottom: 15px;
 }
@@ -60,9 +54,7 @@ button:hover {
 }
 
 .toggle {
-  /* TODO */
   position: relative;
-  /* TODO */
   display: inline-block;
   width: 50px;
   height: 24px;
@@ -70,7 +62,6 @@ button:hover {
 }
 
 .slider {
-  /* TODO */
   position: absolute;
   cursor: pointer;
   top: 0;
@@ -83,7 +74,6 @@ button:hover {
 }
 
 .slider:before {
-  /* TODO */
   position: absolute;
   content: "";
   height: 20px;

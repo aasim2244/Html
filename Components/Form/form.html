@@ -1,56 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Component</title>
     <link rel="stylesheet" href="form.css">
-</head>
-<body>
-
+  </head>
+  <body>
     <div class="form-container">
-        <h2>Form Component</h2>
-        <form id="formComponent">
-            <!-- Text Input -->
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+      <h2>Form Component</h2>
+      <form id="formComponent">
+        <!-- Text Input -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        <!-- Dropdown -->
+        <label for="country">Country:</label>
+        <select id="country" name="country" required>
+          <option value="">Select your country</option>
+          <option value="USA">USA</option>
+          <option value="Canada">Canada</option>
+          <option value="UK">UK</option>
+          <option value="Australia">Australia</option>
+        </select>
+        <!-- Checkboxes -->
+        <label>Interests:</label>
+        <div class="checkbox-group">
+          <input type="checkbox" id="interest1" name="interests" value="Sports">
+          <label for="interest1">Sports</label>
 
-            <!-- Dropdown -->
-            <label for="country">Country:</label>
-            <select id="country" name="country" required>
-                <option value="">Select your country</option>
-                <option value="USA">USA</option>
-                <option value="Canada">Canada</option>
-                <option value="UK">UK</option>
-                <option value="Australia">Australia</option>
-            </select>
+          <input type="checkbox" id="interest2" name="interests" value="Music">
+          <label for="interest2">Music</label>
 
-            <!-- Checkboxes -->
-            <label>Interests:</label>
-            <div class="checkbox-group">
-                <input type="checkbox" id="interest1" name="interests" value="Sports">
-                <label for="interest1">Sports</label>
-
-                <input type="checkbox" id="interest2" name="interests" value="Music">
-                <label for="interest2">Music</label>
-
-                <input type="checkbox" id="interest3" name="interests" value="Movies">
-                <label for="interest3">Movies</label>
-            </div>
-
-            <!-- Toggle Button -->
-            <label for="newsletter">Subscribe to Newsletter:</label>
-            <label class="toggle">
-                <input type="checkbox" id="newsletter" name="newsletter">
-                <span class="slider"></span>
-            </label>
-
-            <!-- Submit Button -->
-            <button type="submit">Submit</button>
-        </form>
+          <input type="checkbox" id="interest3" name="interests" value="Movies">
+          <label for="interest3">Movies</label>
+        </div>
+        <!-- Toggle Button -->
+        <label for="newsletter">Subscribe to Newsletter:</label>
+        <label class="toggle">
+          <input type="checkbox" id="newsletter" name="newsletter">
+          <span class="slider"></span>
+        </label>
+        <!-- Submit Button -->
+        <button type="submit">Submit</button>
+      </form>
     </div>
-
-    <script src="form.js"></script>
-
-</body>
+  <script src="form.js"></script>
+  </body>
 </html>

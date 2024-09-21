@@ -8,13 +8,11 @@ body {
 }
 
 .footer-container {
-  /* TODO */
   display: flex;
   padding: 0 20px;
 }
 
 .footer-container > div {
-  /* TODO */
   flex: 1;
   margin: 10px;
 }
@@ -38,7 +36,6 @@ body {
 }
 
 .footer-contact p {
- /* TODO */
   margin: 5px 0;
 }
 
@@ -47,7 +44,6 @@ body {
 }
 
 .social-icons {
-  /* TODO */
   display: flex;
   padding: 0;
 }
