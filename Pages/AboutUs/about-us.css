@@ -69,12 +69,21 @@ body {
   color: white;
 }
 
+.body-container{
+  display: grid;
+}
+
 .card {
-  background-color: #fff;
-  max-width: 50%;
+  background-color: lightgray;
+  max-width: 90%;
   text-align: center;
   margin: 0;
-  justify-self: center;
+  margin-left: 4em;
+  margin-top: -4em;
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+  border-radius: 1em;
+  background-image: linear-gradient(45deg, white, transparent);
 }
 
 .card-image {
@@ -83,7 +92,7 @@ body {
 }
 
 .card-content {
-  padding: 20px;
+  padding: 2em;
 }
 
 .card-title {
