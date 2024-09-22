@@ -57,12 +57,18 @@ body {
   border-radius: 5px;
 }
 
-/*  background-color: #f4f4f4;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0; */
+.page-title-container{
+  height: 20em;
+  background-color: lightgray;
+  text-align: center;
+  background-image: linear-gradient(45deg, purple, lightblue);
+}
+
+.page-title-container > .page-title{
+  margin-top: 4em;
+  color: white;
+}
+
 .card {
   background-color: #fff;
   max-width: 50%;
