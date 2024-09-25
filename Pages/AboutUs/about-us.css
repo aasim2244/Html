@@ -3,6 +3,8 @@ body {
   display: grid;
 }
 
+/* ----------------------------------------------- Section Break -------------------------------------------------------- */
+/* Navbar */
 .navbar {
   background-color: #333;
   padding: 10px;
@@ -57,6 +59,8 @@ body {
   border-radius: 5px;
 }
 
+/* ----------------------------------------------- Section Break -------------------------------------------------------- */
+/* Body */
 .page-title-container{
   height: 20em;
   background-color: lightgray;
@@ -93,11 +97,6 @@ body {
   background-image: linear-gradient(45deg, white, transparent);
 }
 
-.card-image {
-  width: 100%;
-  height: auto;
-}
-
 .card-content {
   padding: 2em;
   @media (max-width: 720px){
@@ -125,6 +124,8 @@ body {
   font-size: 16px;
   transition: background-color 0.3s ease;
 }
+
+/* ----------------------------------------------- Section Break -------------------------------------------------------- */
 
 /* footer */
  .site-footer {
