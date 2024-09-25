@@ -1,0 +1,31 @@
+/* Style for the audio player */
+.audio-player {
+  width: 300px;
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+input[type="range"] {
+  width: 150px;
+}
+
+span {
+  font-family: Arial, sans-serif;
+}
