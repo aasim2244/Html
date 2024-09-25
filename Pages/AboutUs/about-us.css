@@ -18,7 +18,7 @@ body {
   display: flex;
   flex-direction: column;
   cursor: pointer;
-  position: absolute;
+  margin-right: 1em;
 }
 
 .hamburger-menu > .bar {
@@ -78,8 +78,15 @@ body {
   max-width: 90%;
   text-align: center;
   margin: 0;
-  margin-left: 4em;
   margin-top: -4em;
+  margin-right: 4em;
+
+  /* if screen is small */
+  @media (max-width: 720px) {
+    margin-right: 2em;
+    margin-left: 2em;
+  }
+  margin-left: 4em;
   margin-bottom: 1em;
   padding-bottom: 1em;
   border-radius: 1em;
@@ -93,6 +100,9 @@ body {
 
 .card-content {
   padding: 2em;
+  @media (max-width: 720px){
+    padding: 1em;
+  }
 }
 
 .card-title {
