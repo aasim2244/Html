@@ -4,11 +4,14 @@
   background-color: #f7f7f7;
   padding: 20px;
   border-radius: 10px;
-  display: flex;
+  display: table;
   align-items: center;
   justify-content: space-between;
 }
-
+.audio-player > h5{
+  margin-top: -0.5em;
+  text-align: center;
+}
 button {
   background-color: #007BFF;
   color: white;
