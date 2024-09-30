@@ -115,17 +115,33 @@ body {
   margin-bottom: 20px;
 }
 
-.card-button {
-  background-color: #007BFF;
-  color: #fff;
-  padding: 10px 20px;
-  text-decoration: none;
-  border-radius: 5px;
-  font-size: 16px;
-  transition: background-color 0.3s ease;
-  display: inline-block;
-  margin-top: 2em;
+.chart-container {
+  width: 70%;
+  max-width: 600px;
+  margin: 0 auto;
 }
+
+figure {
+  margin: 20px auto;
+  text-align: center;
+  background-color: rgba(211, 211, 211, 0.3);
+  max-width: 870px;
+  border-radius: 2em;
+}
+figure > h3{
+  text-align: left;
+  padding-top: 1em;
+  padding-left: 1em;
+
+}
+figcaption {
+  font-style: italic;
+  font-size: large;
+
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
 
 .table-container {
   margin: 0 auto;
@@ -331,7 +347,17 @@ span {
   font-family: Arial, sans-serif;
 }
 
-
+.card-button {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+  margin-top: 2em;
+}
 /* ----------------------------------------------- Section Break -------------------------------------------------------- */
 
 /* footer */
