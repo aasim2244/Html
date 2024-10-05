@@ -1,0 +1,224 @@
+body {
+  margin: 0;
+  display: grid;
+  background-image: linear-gradient(45deg, antiquewhite, transparent);
+}
+
+/* ----------------------------------------------- Section Break -------------------------------------------------------- */
+/* Navbar */
+.navbar {
+  background-color: #333;
+  padding: 10px;
+  color: white;
+}
+
+.navbar-content {
+  display: flex;
+  align-items: center;
+}
+
+.hamburger-menu {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  margin-right: 1em;
+}
+
+.hamburger-menu > .bar {
+  background-color: white;
+  height: 3px;
+  width: 25px;
+  margin: 3px 0;
+}
+
+.search-container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.search-container > input {
+  width: 100%;
+  max-width: 400px;
+  padding: 7px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.search-container > input:focus {
+  border-color: #333;
+}
+
+.nav-item {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+
+.nav-item:hover {
+  background-color: #575757;
+  border-radius: 5px;
+}
+
+/* ----------------------------------------------- Section Break -------------------------------------------------------- */
+/* Body */
+.page-title-container{
+  height: 20em;
+  background-color: lightgray;
+  text-align: center;
+  background-image: linear-gradient(45deg, purple, lightblue);
+}
+
+.page-title-container > .page-title{
+  margin-top: 4em;
+  color: white;
+}
+
+.body-container{
+  display: grid;
+}
+.card {
+  background-color: lightgray;
+  max-width: 90%;
+  text-align: center;
+  margin: 0;
+  margin-top: -4em;
+  margin-right: 4em;
+
+  /* if screen is small */
+  @media (max-width: 720px) {
+    margin-right: 2em;
+    margin-left: 2em;
+  }
+
+  margin-left: 4em;
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+  border-radius: 1em;
+  background-image: linear-gradient(45deg, white, transparent);
+
+  display: inline-flex;
+  margin-bottom: 6em;
+}
+
+.card-image{
+  width: 40%;
+  max-height: 300px;
+  border-radius: 1em;
+}
+
+.card-content {
+  padding: 2em;
+  @media (max-width: 720px){
+    padding: 1em;
+  }
+}
+
+.card-title {
+  font-size: 24px;
+  margin: 0 0 10px;
+}
+
+.card-description {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.rounded-button {
+  width: 100px;
+  height: 50px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 25px; /* Rounded edges */
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+}
+
+.rounded-button:hover {
+  background-color: #0056b3;
+}
+
+/* footer */
+.site-footer {
+  background-color: #333;
+  color: #fff;
+}
+
+.footer-container {
+  display: flex;
+  padding: 0 20px;
+}
+
+.footer-container > div {
+  flex: 1;
+  margin: 10px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li {
+  margin-bottom: 10px;
+}
+
+.footer-links ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-links ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer-contact p {
+  margin: 5px 0;
+}
+
+.footer-social ul li {
+  margin-right: 10px;
+}
+
+.social-icons {
+  display: flex;
+  padding: 0;
+}
+
+.social-icon {
+  width: 30px;
+  height: 30px;
+  display: block;
+  background-size: cover;
+}
+
+.social-icon.facebook {
+  background-image: url('https://img.icons8.com/ios-filled/50/ffffff/facebook-new.png');
+}
+
+.social-icon.twitter {
+  background-image: url('https://img.icons8.com/ios-filled/50/ffffff/twitter.png');
+}
+
+.social-icon.instagram {
+  background-image: url('https://img.icons8.com/ios-filled/50/ffffff/instagram-new.png');
+}
+
+.social-icon.linkedin {
+  background-image: url('https://img.icons8.com/ios-filled/50/ffffff/linkedin.png');
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 10px;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.footer-bottom p {
+  margin: 0;
+}
