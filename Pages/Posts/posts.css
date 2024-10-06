@@ -85,29 +85,54 @@ body {
   margin-top: -4em;
   margin-right: 4em;
 
-  /* if screen is small */
-  @media (max-width: 720px) {
-    margin-right: 2em;
-    margin-left: 2em;
-  }
-
   margin-left: 4em;
   margin-bottom: 1em;
   padding-bottom: 1em;
   border-radius: 1em;
   background-image: linear-gradient(45deg, white, transparent);
 
-  display: inline-flex;
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+  grid-template-rows: 1fr 13fr;
+  
+  grid-template-areas: 
+  "card-header card-header"
+  "card-image card-content";
   margin-bottom: 6em;
+
+  /* if screen is small */
+  @media (max-width: 720px) {
+    margin-right: 2em;
+    margin-left: 2em;
+  }
+}
+
+.card-header{
+  grid-area: card-header;
+  background-color: aliceblue;
+}
+
+.card-header > .author{
+  float: left;
+  padding-left: 5px;
+  padding-top: 2px;
+}
+
+.card-header > .date{
+  float: right;
+  padding-right: 5px;
+  padding-top: 2px;
 }
 
 .card-image{
-  width: 40%;
+  grid-area: card-image;
+  width: 100%;
   max-height: 300px;
   border-radius: 1em;
 }
 
 .card-content {
+  grid-area: card-content;
   padding: 2em;
   @media (max-width: 720px){
     padding: 1em;
@@ -140,6 +165,45 @@ body {
 
 .rounded-button:hover {
   background-color: #0056b3;
+}
+
+.pagination{
+  margin-top: -3em;
+}
+
+.pagination > span{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.pagination > span:hover{
+  background-color: darkgray;
+  width: 20px;
+  border-radius: 50%;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+}
+.rectangular-button {
+  width: 80px;
+  height: 25px;
+  background-color: cornflowerblue;
+  color: white;
+  border: none;
+  border-radius: 0; /* Sharp edges */
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.rectangular-button:hover {
+  background-color: #0056b3;
+}
+
+.pagination{
+  text-align: center;
 }
 
 /* footer */
