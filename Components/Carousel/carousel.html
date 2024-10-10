@@ -1,32 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Review Carousel</title>
+    <title>Influencer Review Carousel (3 at a time)</title>
     <link rel="stylesheet" href="carousel.css">
-</head>
-<body>
-
-<div class="carousel-container">
-    <div class="carousel">
+  </head>
+  <body>
+    <div class="carousel-container">
+      <div class="carousel">
+        <!-- Influencer 1 -->
         <div class="carousel-item">
-            <p>"This website is fantastic! It's fast, reliable, and easy to navigate." - User A</p>
+          <div class="review-content">
+            <img src="influencer1.jpg" alt="Influencer 1">
+            <h3>Influencer A</h3>
+            <p>
+              "This platform has changed the way I connect with my audience."
+            </p>
+          </div>
         </div>
+        <!-- Influencer 2 -->
         <div class="carousel-item">
-            <p>"Best service I've ever experienced. Highly recommend!" - User B</p>
+          <div class="review-content">
+            <img src="influencer2.jpg" alt="Influencer 2">
+            <h3>Influencer B</h3>
+            <p>
+              "It provides exactly what my brand needs, and the support is excellent."
+            </p>
+          </div>
         </div>
+        <!-- Influencer 3 -->
         <div class="carousel-item">
-            <p>"Amazing user interface and great customer support." - User C</p>
+          <div class="review-content">
+            <img src="influencer3.jpg" alt="Influencer 3">
+            <h3>Influencer C</h3>
+            <p>
+              "I recommend this platform to all my fellow influencers!"
+            </p>
+          </div>
         </div>
+        <!-- Influencer 4 -->
         <div class="carousel-item">
-            <p>"A truly outstanding platform that meets all my needs." - User D</p>
+          <div class="review-content">
+            <img src="influencer4.jpg" alt="Influencer 4">
+            <h3>Influencer D</h3>
+            <p>
+              "A game-changer. I’ve grown my audience faster using this service."
+            </p>
+          </div>
         </div>
+        <!-- Influencer 5 -->
+        <div class="carousel-item">
+          <div class="review-content">
+            <img src="influencer5.jpg" alt="Influencer 5">
+            <h3>Influencer E</h3>
+            <p>
+              "This platform offers unique features that I can’t find anywhere else."
+            </p>
+          </div>
+        </div>
+      </div>
+      <button class="prev-btn" onclick="prevSlide()">&#10094;</button>
+      <button class="next-btn" onclick="nextSlide()">&#10095;</button>
     </div>
-    <button class="prev-btn" onclick="prevSlide()">&#10094;</button>
-    <button class="next-btn" onclick="nextSlide()">&#10095;</button>
-</div>
-
-<script src="carousel.js"></script>
-</body>
+  <script src="carousel.js"></script>
+  </body>
 </html>

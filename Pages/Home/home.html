@@ -37,40 +37,100 @@
       </div>
     </div>
     <div class="body-container">
-      <h3 class="posts-title">
-        Our top blog posts
-      </h3>
-      <div class="posts-description">
-        <div class="post-one">
-          <h3>
-            Post Title
-          </h3>
-          <img src="./Media/image-1.jpg" class="post-image">
-        </div>
-        <div class="post-two">
-          <h3>
-            Post Title
-          </h3>
-          <img src="./Media/image-2.jpg" class="post-image">
-        </div>
-        <div class="post-three">
-          <h3>
-            Post Title
-          </h3>
-          <img src="./Media/image-3.jpg" class="post-image">
+      <div class="posts-container">
+        <h3 class="posts-title">
+          Our top blog posts
+        </h3>
+        <div class="posts-description">
+          <div class="post-one">
+            <h3>
+              Post Title
+            </h3>
+            <img src="./Media/image-1.jpg" class="post-image">
+          </div>
+          <div class="post-two">
+            <h3>
+              Post Title
+            </h3>
+            <img src="./Media/image-2.jpg" class="post-image">
+          </div>
+          <div class="post-three">
+            <h3>
+              Post Title
+            </h3>
+            <img src="./Media/image-3.jpg" class="post-image">
+          </div>
         </div>
       </div>
-      <p class="card-description">
-        Reviews/Ratings carousel
-      </p>
-      <p class="card-description">
-        image background + lead capture
-      </p>
-    </div>
-    <div class="slider-container"></div>
-      <label for="slider" class="slider-label">Adjust value:</label>
-      <input type="range" id="slider" min="0" max="100" value="50" class="slider">
-      <span id="slider-value">50</span>
+      <div class="carousel-container">
+        <div class="carousel">
+          <!-- Influencer 1 -->
+          <div class="carousel-item">
+            <div class="review-content">
+              <img src="Media/image-1.jpg" alt="Influencer 1">
+              <h3>Influencer A</h3>
+              <p>
+                "This platform has changed the way I connect with my audience."
+              </p>
+            </div>
+          </div>
+          <!-- Influencer 2 -->
+          <div class="carousel-item">
+            <div class="review-content">
+              <img src="Media/image-2.jpg" alt="Influencer 2">
+              <h3>Influencer B</h3>
+              <p>
+                "It provides exactly what my brand needs, and the support is excellent."
+              </p>
+            </div>
+          </div>
+          <!-- Influencer 3 -->
+          <div class="carousel-item">
+            <div class="review-content">
+              <img src="Media/image-3.jpg" alt="Influencer 3">
+              <h3>Influencer C</h3>
+              <p>
+                "I recommend this platform to all my fellow influencers!"
+              </p>
+            </div>
+          </div>
+          <!-- Influencer 4 -->
+          <div class="carousel-item">
+            <div class="review-content">
+              <img src="Media/image-1.jpg" alt="Influencer 4">
+              <h3>Influencer D</h3>
+              <p>
+                "A game-changer. I’ve grown my audience faster using this service."
+              </p>
+            </div>
+          </div>
+          <!-- Influencer 5 -->
+          <div class="carousel-item">
+            <div class="review-content">
+              <img src="Media/image-2.jpg" alt="Influencer 5">
+              <h3>Influencer E</h3>
+              <p>
+                "This platform offers unique features that I can’t find anywhere else."
+              </p>
+            </div>
+          </div>
+        </div>
+        <button class="prev-btn" onclick="prevSlide()">&#10094;</button>
+        <button class="next-btn" onclick="nextSlide()">&#10095;</button>
+      </div>
+      <div class="lead-container">
+        <div class="overlay">
+          <div class="lead-call">
+            <h2>Dont Miss Out</h2>
+          </div>
+          <div class="lead-capture">
+            <p>Enter Your Email:
+            <input type="text" placeholder="Enter your email">
+          </p>
+            <button class="rounded-button">Act Now</button>
+          </div>
+        </div>
+      </div>
     </div>
     <footer class="site-footer">
       <div class="footer-container">
@@ -107,6 +167,6 @@
         <p>&copy; 2024 Your Company. All rights reserved.</p>
       </div>
     </footer>
-  <script src="slider.js"></script>
+  <script src="carousel.js"></script>
   </body>
 </html>
